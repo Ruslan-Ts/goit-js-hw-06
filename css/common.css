@@ -1,46 +1,6 @@
 * {
   box-sizing: border-box;
 }
-img {
-  display: block;
-}
-
-button {
-  padding: 0;
-  cursor: pointer;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-ul,
-ol {
-  margin: 0;
-  padding-left: 0;
-}
-
-a {
-  color: currentColor;
-}
-
-body {
-  font-family: 'Roboto', 'Raleway';
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
 
 body {
   margin: 16px;
@@ -61,11 +21,4 @@ input {
 button {
   padding: 8px 12px;
   cursor: pointer;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
 }

@@ -11,8 +11,9 @@ function onFormSubmit(event) {
     
     // const formData = new FormData(event.currentTarget);
     
-    if (mail || password === '') {
+    if (mail === '' || password === '') {
         alert('Заповніть всі поля!')
+        return;
     }
     
     console.log(password);
